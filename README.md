@@ -25,6 +25,17 @@ Then, in the root directory of the project, run:
 
 ```bash
 docker-compose up --build
-# To demonstrate that the service works as expected without using a browser,  
-# you can run the following command from the terminal:
+```
+
+---
+
+##  curl Test
+
+To demonstrate that the service works as expected without using a browser,  
+you can run the following command from the terminal, after the docker is built:
+
+```bash
 curl http://localhost:5000
+```
+Expected output:
+Hello from Flask in Docker!
