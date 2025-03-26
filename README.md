@@ -38,4 +38,6 @@ you can run the following command from the terminal, after the docker is built:
 curl http://localhost:5000
 ```
 Expected output:
+```bash
 Hello from Flask in Docker!
+```
